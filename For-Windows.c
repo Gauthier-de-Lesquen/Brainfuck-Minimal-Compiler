@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
         "int main(void) {\n"
         "    unsigned char mem[30000] = {0};\n"
         "    unsigned char *ptr = mem;\n"
-        "    unsigned char *end = mem + 1024;\n\n"
+        "    unsigned char *end = mem + 30000;\n\n"
     );
 
     /* ---------- verifications ---------- */
