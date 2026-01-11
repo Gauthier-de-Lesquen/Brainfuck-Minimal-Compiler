@@ -30,4 +30,4 @@ Urban Müller imagined then a language running on a big table of unsigned charac
 |```[```|	start of a loop while the data pointer isn't zero              |
 |```]```| end of a [-starting loop                                       |
 
-> ** fun fact: ** Brainfuck is turing-compete, that means you can run every programs you want 
+> FUN FACT: Brainfuck is turing-compete, that means you can run every programs you want 
