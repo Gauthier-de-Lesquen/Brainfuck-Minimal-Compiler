@@ -1,5 +1,6 @@
 # Brainfuck-Minimal-Compiler
-*This is a minimal BrainFuck to C and then to executable compiler. Depedency : GCC*
+*This is a minimal BrainFuck to C and then to executable compiler.*
+**⚠️ you need to have GCC installed on your computer ⚠️**
 
 ## How To Use It ?
 To use it, you must do like when you use gcc. After compiling the C file (or downloading the .exe attached) and added it to path, you can use it like that : \
