@@ -22,6 +22,8 @@ Else, you can compile like: \
 
 Urban Müller imagined then a language running on a big table of unsigned characters (255 bytes) and that can be controled by only 8 commands:
 
+|command| description                                                    |
+|-------|----------------------------------------------------------------|
 |```>```| increments the data pointer (position on the great table) of 1 |
 |```<```| decrements the data pointer of 1                               |
 |```+```| increments the byte at the data pointer by 1 modulo 256        |
