@@ -22,7 +22,7 @@ Else, you can compile like: \
 
 Urban Müller imagined then a language running on a big table of unsigned characters (255 bytes) and that can be controled by only 8 commands:
 
-|command| description                                                    |
+|Command| Description                                                    |
 |:------|:---------------------------------------------------------------|
 |```>```| increments the data pointer (position on the great table) of 1 |
 |```<```| decrements the data pointer of 1                               |
@@ -31,6 +31,6 @@ Urban Müller imagined then a language running on a big table of unsigned charac
 |```.```| displays the byte at the data pointer                          |
 |```,```| accepts an input from the user at the data pointer             |
 |```[```|	start of a loop while the data pointer isn't zero              |
-|```]```| end of a [-starting loop                                       |
+|```]```| end of a loop                                                  |
 
-> FUN FACT: Brainfuck is turing-compete, that means you can run every programs you want 
+> FUN FACT: Brainfuck is turing-compete, that means you can run every programs you want
