@@ -70,7 +70,12 @@ int main(int argc, char *argv[]) {
                 break;
 
             case '[':
-                stack++;
+                if (++stack > 65535) {
+                    fprintf(stderr, "Security Warning: loop nesting too deep, stack overflow risk, compilation stopped\n");
+                    fclose(bffile);
+                    fclose(bffileo);
+                    return 1;
+                }
                 fprintf(bffileo, "    while (*ptr) {\n");
                 break;
 
